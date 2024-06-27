@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CAM Construction</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="Cam Construction (7970) NEON GREEN DTG.png" alt="Cam(logo)">
+        </div>
+        <nav>
+            <div class="hamburger" onclick="toggleMenu()">
+                &#9776;
+            </div>
+            <ul id="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="services">
+            <h2>Our Services</h2>
+            <div class="service-detail" id="service1">
+                <img src="gallery1.png" alt="Service 1">
+                <div class="service-text">
+                    <h3>Service 1</h3>
+                    <p>In-depth description of Service 1. This service includes various features and benefits that cater to the needs of our clients. Detailed explanation about the processes and outcomes expected from this service.</p>
+                </div>
+            </div>
+            <div class="service-detail" id="service2">
+                <img src="gallery2.png" alt="Service 2">
+                <div class="service-text">
+                    <h3>Service 2</h3>
+                    <p>In-depth description of Service 2. Highlighting the expertise and quality assurance provided through this service. Explanation about the tools, techniques, and advantages of opting for this service.</p>
+                </div>
+            </div>
+            <div class="service-detail" id="service3">
+                <img src="gallery3.png" alt="Service 3">
+                <div class="service-text">
+                    <h3>Service 3</h3>
+                    <p>In-depth description of Service 3. Details about the unique aspects and tailored solutions offered through this service. Information about the implementation and benefits of this service for different projects.</p>
+                </div>
+            </div>
+            <div class="service-detail">
+                <img src="gallery4.png" alt="Service 4">
+                <div class="service-text">
+                    <h3>Service 4</h3>
+                    <p>In-depth description of Service 4. Comprehensive information about the steps involved and the value delivered to clients through this service. Emphasis on the quality and customer satisfaction ensured by our team.</p>
+                </div>
+            </div>
+            <div class="service-detail" id="service5">
+                <img src="gallery5.png" alt="Service 5">
+                <div class="service-text">
+                    <h3>Service 5</h3>
+                    <p>In-depth description of Service 5. Description of the specific features, scope, and deliverables associated with this service. Insights into the efficiency and effectiveness guaranteed by choosing this service.</p>
+                </div>
+            </div>
+            <div class="service-detail" id="service6">
+                <img src="gallery6.png" alt="Service 6">
+                <div class="service-text">
+                    <h3>Service 6</h3>
+                    <p>In-depth description of Service 6. Explanation of the customized solutions and industry standards adhered to in this service. Outline of the benefits and successful outcomes experienced by clients.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; CAM Construction 2024</p>
+    </footer>
+    <script>
+        function toggleMenu() {
+            const navLinks = document.getElementById('nav-links');
+            navLinks.classList.toggle('show');
+        }
+
+        window.addEventListener('resize', () => {
+            const navLinks = document.getElementById('nav-links');
+            if (window.innerWidth > 768) {
+                navLinks.classList.remove('show');
+            }
+        });
+    </script>
+</body>
+</html>

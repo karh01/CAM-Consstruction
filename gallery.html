@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CAM Construction</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="gallerybody">
+    <header>
+        <div class="logo">
+            <img src="Cam Construction (7970) NEON GREEN DTG.png" alt="Cam(logo)">
+        </div>
+        <nav>
+            <div class="hamburger" onclick="toggleMenu()">
+                &#9776;
+            </div>
+            <ul id="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="gallery">
+        <div class="gallery-item">
+            <img src="gallery1.png" alt="Description of Image">
+            <div class="overlay">
+                <div class="overlay-content">
+                    <h3>Image Title</h3>
+                    <p>Description or additional information about the image.</p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="gallery-item">
+            <img src="gallery2.png" alt="Description of Another Image">
+            <div class="overlay">
+                <div class="overlay-content">
+                    <h3>Image Title</h3>
+                    <p>Description or additional information about the image.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="gallery-item">
+            <img src="gallery3.png" alt="Description of Image">
+            <div class="overlay">
+                <div class="overlay-content">
+                    <h3>Image Title</h3>
+                    <p>Description or additional information about the image.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="gallery-item">
+            <img src="gallery4.png" alt="Description of Image">
+            <div class="overlay">
+                <div class="overlay-content">
+                    <h3>Image Title</h3>
+                    <p>Description or additional information about the image.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="gallery-item">
+            <img src="gallery5.png" alt="Description of Image">
+            <div class="overlay">
+                <div class="overlay-content">
+                    <h3>Image Title</h3>
+                    <p>Description or additional information about the image.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="gallery-item">
+            <img src="gallery6.png" alt="Description of Image">
+            <div class="overlay">
+                <div class="overlay-content">
+                    <h3>Image Title</h3>
+                    <p>Description or additional information about the image.</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="gallery-item">
+            <img src="gallery7.png" alt="Description of Image">
+            <div class="overlay">
+                <div class="overlay-content">
+                    <h3>Image Title</h3>
+                    <p>Description or additional information about the image.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        function toggleMenu() {
+            const navLinks = document.getElementById('nav-links');
+            navLinks.classList.toggle('show');
+        }
+
+        window.addEventListener('resize', () => {
+            const navLinks = document.getElementById('nav-links');
+            if (window.innerWidth > 768) {
+                navLinks.classList.remove('show');
+            }
+        });
+    </script>
+    </body>
+    </html>
+        
